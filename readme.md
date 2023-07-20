@@ -60,7 +60,12 @@ git reset --hard id_commit      (Uncommit + Unstage + Delete)
 # switch to a commit 
 git switch cf48daa60768153065c4e7a83d753e35fe8dcd51 --detach
 
+# unadd
+git restore --staged . 
+git restore --staged text.txt
 
+# unmodify
+ git restore .
 
 
 
