@@ -73,6 +73,7 @@ git restore --staged text.txt
 
 
 
+
 -- Revert the changes in the other commit ( not delete commits above this) 
 --xóa những thay đổi ở 1 commit trước đó tuy nhiên sẽ không xóa những commit phía trên mà sẽ tạo ra thêm 1 commit mới
 git revert tencommit
