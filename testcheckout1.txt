@@ -1,1 +1,2 @@
 xin chao, toi se chuyen qua master va commmit git
+tao 1 dong txt va fetch ve may
