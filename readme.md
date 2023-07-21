@@ -51,8 +51,10 @@ git branch
 git checkout namebranch
 
 # merge branch
-- git merge namebranch
-- reset file to specify commmit
+1. switch to branch have merge
+2. git merge namebranch
+
+# reset file to specify commmit
 git reset --soft id_commit      (Uncommit) 
 git reset --mixed id_commit     (Uncommit + Unstage)
 git reset --hard id_commit      (Uncommit + Unstage + Delete)
@@ -67,6 +69,8 @@ git restore --staged text.txt
 # unmodify
  git restore .
 
+# unchange a commit 
+git revert 8166b68212787e50b40acef5f8943bf2d17baa5a
 
 
 
