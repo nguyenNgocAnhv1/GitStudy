@@ -1,4 +1,5 @@
 Co tinh taoj ra confict ow day
 xin chao, toi se chuyen qua master va commmit git
 tao 1 dong txt va fetch ve may
-4. thu tao config 
+4. thu tao config thu tao them 1 confict o day nua joraa \
+check git len dong bo
