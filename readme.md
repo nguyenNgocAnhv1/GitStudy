@@ -68,7 +68,8 @@ git restore --staged text.txt
 
 # unmodify
  git restore .
-
+# reset all change
+git clean -f -d
 # unchange a commit 
 git revert 8166b68212787e50b40acef5f8943bf2d17baa5a
 
